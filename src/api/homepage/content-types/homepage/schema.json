@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Home_page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_title": {
+      "type": "string"
+    },
+    "hero_desc": {
+      "type": "text"
+    },
+    "hero_video": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Introduction_section": {
+      "type": "component",
+      "component": "homepage-components.intro-section",
+      "repeatable": false
+    },
+    "Signature_section": {
+      "type": "component",
+      "component": "homepage-components.signature-section",
+      "repeatable": false
+    },
+    "Amenities_section": {
+      "type": "component",
+      "component": "homepage-components.amenity-section",
+      "repeatable": false
+    },
+    "Promise_section": {
+      "type": "component",
+      "component": "homepage-components.promise-section",
+      "repeatable": false
+    },
+    "Location_section": {
+      "type": "component",
+      "component": "homepage-components.location-section",
+      "repeatable": false
+    },
+    "Gallery_section": {
+      "type": "component",
+      "component": "homepage-components.gallery-section",
+      "repeatable": false
+    },
+    "Testimonial_section": {
+      "type": "component",
+      "component": "homepage-components.testimonial-section",
+      "repeatable": false
+    }
+  }
+}

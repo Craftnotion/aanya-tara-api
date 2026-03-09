@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_homepage_components_promise_sections",
+  "info": {
+    "displayName": "Promise_section"
+  },
+  "options": {},
+  "attributes": {
+    "promise_badge": {
+      "type": "string"
+    },
+    "promise_title": {
+      "type": "string"
+    },
+    "promise_left_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "promise_left_feature_title": {
+      "type": "string"
+    },
+    "promise_left_feature_desc": {
+      "type": "text"
+    },
+    "promise_right_feature_1_title": {
+      "type": "string"
+    },
+    "promise_right_feature_1_desc": {
+      "type": "text"
+    },
+    "promise_right_feature_2_title": {
+      "type": "string"
+    },
+    "promise_right_feature_2_desc": {
+      "type": "text"
+    },
+    "promise_right_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

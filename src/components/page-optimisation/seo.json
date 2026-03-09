@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_optimisation_seos",
+  "info": {
+    "displayName": "SEO"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "maxLength": 60,
+      "required": true
+    },
+    "Description": {
+      "type": "string",
+      "maxLength": 150
+    },
+    "Keywords": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

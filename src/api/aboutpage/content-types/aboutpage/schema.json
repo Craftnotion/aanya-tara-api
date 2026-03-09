@@ -1,0 +1,113 @@
+{
+  "kind": "singleType",
+  "collectionName": "aboutpages",
+  "info": {
+    "singularName": "aboutpage",
+    "pluralName": "aboutpages",
+    "displayName": "About_page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_badge": {
+      "type": "string"
+    },
+    "hero_title": {
+      "type": "string"
+    },
+    "hero_desc": {
+      "type": "text"
+    },
+    "story_badge": {
+      "type": "string"
+    },
+    "story_title": {
+      "type": "string"
+    },
+    "story_desc": {
+      "type": "blocks"
+    },
+    "story_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "philosophy_badge": {
+      "type": "string"
+    },
+    "philosophy_title": {
+      "type": "string"
+    },
+    "philosophy_desc": {
+      "type": "blocks"
+    },
+    "location_badge": {
+      "type": "string"
+    },
+    "location_title": {
+      "type": "string"
+    },
+    "location_desc": {
+      "type": "text"
+    },
+    "location_bg": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "locations_list": {
+      "type": "component",
+      "component": "homepage-components.location-feature",
+      "repeatable": true
+    },
+    "commitment_badge": {
+      "type": "string"
+    },
+    "commitment_title": {
+      "type": "string"
+    },
+    "commitment_left_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "commitment_left_desc": {
+      "type": "text"
+    },
+    "commitment_right_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "commitment_right_desc": {
+      "type": "text"
+    },
+    "commitment_services_list": {
+      "type": "component",
+      "component": "homepage-components.amenity-item",
+      "repeatable": true
+    }
+  }
+}

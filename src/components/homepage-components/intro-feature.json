@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_homepage_components_intro_features",
+  "info": {
+    "displayName": "Intro_feature"
+  },
+  "options": {},
+  "attributes": {
+    "intro_subtitle": {
+      "type": "string"
+    },
+    "intro_desc": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

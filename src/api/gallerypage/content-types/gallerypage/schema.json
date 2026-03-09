@@ -1,0 +1,76 @@
+{
+  "kind": "singleType",
+  "collectionName": "gallerypages",
+  "info": {
+    "singularName": "gallerypage",
+    "pluralName": "gallerypages",
+    "displayName": "Gallery_page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_badge": {
+      "type": "string"
+    },
+    "hero_title": {
+      "type": "string"
+    },
+    "hero_desc": {
+      "type": "text"
+    },
+    "hero_bg": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "categories_title": {
+      "type": "string"
+    },
+    "tab_1_label": {
+      "type": "string"
+    },
+    "tab_1_images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "tab_2_label": {
+      "type": "string"
+    },
+    "tab_2_images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "tab_3_label": {
+      "type": "string"
+    },
+    "tab_3_images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

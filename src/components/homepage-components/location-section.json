@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_homepage_components_location_sections",
+  "info": {
+    "displayName": "Location_section"
+  },
+  "options": {},
+  "attributes": {
+    "loc_badge": {
+      "type": "string"
+    },
+    "loc_title": {
+      "type": "string"
+    },
+    "loc_images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "loc_description": {
+      "type": "text"
+    },
+    "locations_list": {
+      "type": "component",
+      "component": "homepage-components.location-feature",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

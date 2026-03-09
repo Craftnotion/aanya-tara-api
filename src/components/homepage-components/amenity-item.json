@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_homepage_components_amenity_items",
+  "info": {
+    "displayName": "Amenity_item"
+  },
+  "options": {},
+  "attributes": {
+    "amenity_icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "amenity_subtitle": {
+      "type": "string"
+    },
+    "amenity_desc": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

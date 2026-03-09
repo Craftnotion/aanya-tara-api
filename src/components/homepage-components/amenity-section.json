@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_homepage_components_amenity_sections",
+  "info": {
+    "displayName": "Amenity_section"
+  },
+  "options": {},
+  "attributes": {
+    "amenity_badge": {
+      "type": "string"
+    },
+    "amenity_main_title": {
+      "type": "string"
+    },
+    "amenity_main_desc": {
+      "type": "text"
+    },
+    "amenity_category_title": {
+      "type": "string"
+    },
+    "amenity_bg_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "amenities_list": {
+      "type": "component",
+      "component": "homepage-components.amenity-item",
+      "repeatable": true,
+      "min": 2
+    }
+  },
+  "config": {}
+}

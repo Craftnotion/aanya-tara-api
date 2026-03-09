@@ -1,0 +1,86 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rooms",
+  "info": {
+    "singularName": "room",
+    "pluralName": "rooms",
+    "displayName": "Room"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "room_type": {
+      "type": "string"
+    },
+    "SEO": {
+      "type": "component",
+      "component": "page-optimisation.seo",
+      "repeatable": false
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "amenities": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::amenity.amenity",
+      "mappedBy": "rooms"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "badge": {
+      "type": "string"
+    },
+    "short_desc": {
+      "type": "text"
+    },
+    "guests_count": {
+      "type": "string"
+    },
+    "bathroom_count": {
+      "type": "string"
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "room_count": {
+      "type": "string"
+    },
+    "main_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "booking_url": {
+      "type": "string"
+    },
+    "starting_price": {
+      "type": "string"
+    },
+    "card_desc": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

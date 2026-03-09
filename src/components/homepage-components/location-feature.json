@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_homepage_components_location_features",
+  "info": {
+    "displayName": "Location_feature"
+  },
+  "options": {},
+  "attributes": {
+    "loc_title": {
+      "type": "string"
+    },
+    "loc_desc": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

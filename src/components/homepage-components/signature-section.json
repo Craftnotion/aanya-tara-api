@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_homepage_components_signature_sections",
+  "info": {
+    "displayName": "Signature_section"
+  },
+  "options": {},
+  "attributes": {
+    "signature_subtitle": {
+      "type": "string"
+    },
+    "sign_image1": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "sign_desc1": {
+      "type": "text"
+    },
+    "sign_image2": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "sign_desc2": {
+      "type": "text"
+    },
+    "sign_image3": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "sign_badge": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

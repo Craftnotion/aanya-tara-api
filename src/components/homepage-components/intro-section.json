@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_homepage_components_intro_sections",
+  "info": {
+    "displayName": "Intro_section"
+  },
+  "options": {},
+  "attributes": {
+    "intro_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "features": {
+      "type": "component",
+      "component": "homepage-components.intro-feature",
+      "repeatable": true,
+      "max": 3
+    },
+    "intro_badge": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

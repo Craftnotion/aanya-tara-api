@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "contactpages",
+  "info": {
+    "singularName": "contactpage",
+    "pluralName": "contactpages",
+    "displayName": "Contact_page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_badge": {
+      "type": "string"
+    },
+    "hero_title": {
+      "type": "string"
+    },
+    "hero_desc": {
+      "type": "text"
+    },
+    "hero_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "intro_title": {
+      "type": "string"
+    },
+    "intro_desc": {
+      "type": "text"
+    }
+  }
+}

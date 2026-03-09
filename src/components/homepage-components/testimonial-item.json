@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_homepage_components_testimonial_items",
+  "info": {
+    "displayName": "Testimonial_item"
+  },
+  "options": {},
+  "attributes": {
+    "quote": {
+      "type": "text"
+    },
+    "name": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

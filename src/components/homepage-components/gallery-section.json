@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_homepage_components_gallery_sections",
+  "info": {
+    "displayName": "Gallery_section"
+  },
+  "options": {},
+  "attributes": {
+    "gallery_title": {
+      "type": "string"
+    },
+    "gallery_badge": {
+      "type": "string"
+    },
+    "gallery_desc": {
+      "type": "text"
+    },
+    "gallery_left_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "gallery_right_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

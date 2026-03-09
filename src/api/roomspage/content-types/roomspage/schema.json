@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "roomspages",
+  "info": {
+    "singularName": "roomspage",
+    "pluralName": "roomspages",
+    "displayName": "Rooms_page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_title": {
+      "type": "string"
+    },
+    "hero_badge": {
+      "type": "string"
+    },
+    "hero_desc": {
+      "type": "text"
+    },
+    "hero_bg": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "stay_checkin": {
+      "type": "string"
+    },
+    "stay_checkin_label": {
+      "type": "string"
+    },
+    "stay_checkout": {
+      "type": "string"
+    },
+    "stay_checkout_label": {
+      "type": "string"
+    },
+    "additional_note": {
+      "type": "string"
+    },
+    "Experience_section": {
+      "type": "component",
+      "component": "room-detailspage.experience-item",
+      "repeatable": true
+    }
+  }
+}

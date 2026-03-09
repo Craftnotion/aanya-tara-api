@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_room_detailspage_experience_items",
+  "info": {
+    "displayName": "experience_item"
+  },
+  "options": {},
+  "attributes": {
+    "exp_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "exp_title": {
+      "type": "string"
+    },
+    "exp_description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}
