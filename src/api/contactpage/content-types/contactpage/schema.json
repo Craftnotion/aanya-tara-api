@@ -35,6 +35,11 @@
     },
     "intro_desc": {
       "type": "text"
+    },
+    "SEO_details": {
+      "type": "component",
+      "component": "page-optimisation.seo",
+      "repeatable": false
     }
   }
 }

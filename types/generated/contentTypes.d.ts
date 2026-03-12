@@ -481,6 +481,7 @@ export interface ApiAboutpageAboutpage extends Struct.SingleTypeSchema {
     philosophy_desc: Schema.Attribute.Blocks;
     philosophy_title: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
+    SEO_details: Schema.Attribute.Component<'page-optimisation.seo', false>;
     story_badge: Schema.Attribute.String;
     story_desc: Schema.Attribute.Blocks;
     story_image: Schema.Attribute.Media<
@@ -583,6 +584,7 @@ export interface ApiContactpageContactpage extends Struct.SingleTypeSchema {
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
+    SEO_details: Schema.Attribute.Component<'page-optimisation.seo', false>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -592,7 +594,7 @@ export interface ApiContactpageContactpage extends Struct.SingleTypeSchema {
 export interface ApiCtaFooterCtaFooter extends Struct.SingleTypeSchema {
   collectionName: 'cta_footers';
   info: {
-    displayName: 'CTA-Footer_sections';
+    displayName: 'CTA_Footer_sections';
     pluralName: 'cta-footers';
     singularName: 'cta-footer';
   };
@@ -692,6 +694,7 @@ export interface ApiGallerypageGallerypage extends Struct.SingleTypeSchema {
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
+    SEO_details: Schema.Attribute.Component<'page-optimisation.seo', false>;
     tab_1_images: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios',
       true
@@ -759,6 +762,7 @@ export interface ApiHomepageHomepage extends Struct.SingleTypeSchema {
       false
     >;
     publishedAt: Schema.Attribute.DateTime;
+    SEO_details: Schema.Attribute.Component<'page-optimisation.seo', false>;
     Signature_section: Schema.Attribute.Component<
       'homepage-components.signature-section',
       false
@@ -808,7 +812,7 @@ export interface ApiRoomRoom extends Struct.CollectionTypeSchema {
     publishedAt: Schema.Attribute.DateTime;
     room_count: Schema.Attribute.String;
     room_type: Schema.Attribute.String;
-    SEO: Schema.Attribute.Component<'page-optimisation.seo', false>;
+    SEO_details: Schema.Attribute.Component<'page-optimisation.seo', false>;
     short_desc: Schema.Attribute.Text;
     slug: Schema.Attribute.UID<'title'>;
     starting_price: Schema.Attribute.String;
@@ -849,6 +853,7 @@ export interface ApiRoomspageRoomspage extends Struct.SingleTypeSchema {
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
+    SEO_details: Schema.Attribute.Component<'page-optimisation.seo', false>;
     stay_checkin: Schema.Attribute.String;
     stay_checkin_label: Schema.Attribute.String;
     stay_checkout: Schema.Attribute.String;

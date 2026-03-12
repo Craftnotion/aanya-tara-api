@@ -49,6 +49,11 @@
       "type": "component",
       "component": "room-detailspage.experience-item",
       "repeatable": true
+    },
+    "SEO_details": {
+      "type": "component",
+      "component": "page-optimisation.seo",
+      "repeatable": false
     }
   }
 }

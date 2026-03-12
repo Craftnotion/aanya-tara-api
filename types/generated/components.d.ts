@@ -225,7 +225,7 @@ export interface PageOptimisationSeo extends Struct.ComponentSchema {
 export interface RoomDetailspageExperienceItem extends Struct.ComponentSchema {
   collectionName: 'components_room_detailspage_experience_items';
   info: {
-    displayName: 'experience_item';
+    displayName: 'Experience_item';
   };
   attributes: {
     exp_description: Schema.Attribute.Text;

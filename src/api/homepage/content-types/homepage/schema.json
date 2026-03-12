@@ -61,6 +61,11 @@
       "type": "component",
       "component": "homepage-components.testimonial-section",
       "repeatable": false
+    },
+    "SEO_details": {
+      "type": "component",
+      "component": "page-optimisation.seo",
+      "repeatable": false
     }
   }
 }

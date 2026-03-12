@@ -17,7 +17,7 @@
     "room_type": {
       "type": "string"
     },
-    "SEO": {
+    "SEO_details": {
       "type": "component",
       "component": "page-optimisation.seo",
       "repeatable": false

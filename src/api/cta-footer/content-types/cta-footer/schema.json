@@ -4,7 +4,7 @@
   "info": {
     "singularName": "cta-footer",
     "pluralName": "cta-footers",
-    "displayName": "CTA-Footer_sections"
+    "displayName": "CTA_Footer_sections"
   },
   "options": {
     "draftAndPublish": true
